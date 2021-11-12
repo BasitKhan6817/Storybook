@@ -1,3 +1,7 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 p {
   margin: 10px 0 !important;
 }
@@ -19,4 +23,63 @@ p {
 
 .img-small {
   width: 180px;
+}
+
+.grey.darken-3{
+  background-color: #1b184c !important
+}
+.dasboard{
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 0.5rem;
+  top:18px
+}
+.edit-story{
+  font-size: 25px;
+  letter-spacing: 0.2rem;
+  color: #1b184c;
+  text-transform: uppercase;
+}
+.Username{
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  color: #1b184c;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.striped thead tr th{
+  text-transform: uppercase;
+
+}
+
+.btn{
+  background-color: #1b184c;
+
+}
+.btn:hover{
+  background-color: #2821b3;
+
+}
+.red{
+  background-color: #ff0000 !important;
+
+}
+.card-content > h5{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #1b184c;
+
+}
+.card-title{
+  color: gray !important;
+  font-size: 18px;
+}
+.card-title p{
+  color: black;
+  font-size: 20px;
+}
+.usercard{
+  position: relative;
+  top: 20px;
 }
